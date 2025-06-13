@@ -2,8 +2,14 @@
 using namespace std;
 
 // tipo_retorno + nome_função
-void boasVindas (){
-    cout << "\nBem vindos à aula de lógica de programação!";
+string mensagemBoasVindas(){
+    string texto = "\nBem vindos à aula de Lógica de Programação!";
+    return texto;
+}
+
+void imprimeMensagem (){
+   cout << mensagemBoasVindas() << endl;
+   // tipo de função VOID não tem retorno
 }
 
 int main(){
@@ -12,11 +18,11 @@ int main(){
 
 //code
 
-boasVindas();
+imprimeMensagem();
 
 //code
 
-boasVindas();
+imprimeMensagem();
 
 //code
 
